@@ -61,6 +61,11 @@ Placing your unit tests in the same folder as the code they test helps with main
 
 Don't test things that are already tested elsewhere.
 
+### Verify Failure and Success of Assertions
+
+In test assertions verify that you can reproduce the failure and
+success. Sometimes a test won't fail because it isn't executing correctly.
+
 ## Helpful Resources
 
 - Official Jest Docs: https://jestjs.io/docs/en/getting-started
