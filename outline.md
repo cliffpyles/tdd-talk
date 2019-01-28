@@ -1,6 +1,6 @@
 # Outline
 
-The goal of automated testing is to give us confidence that our code and changes to our code work as intended.
+The goal of automated testing is to give us **confidence that our code works as intended**.
 
 ## Testing Pyramid
 
