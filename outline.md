@@ -27,14 +27,22 @@ Recommendations from Kent Beck (the creator of TDD)
 - Use data that makes them easy to understand
 - Represent one step toward your overall goal
 
-## Pure Functions
+## Tips
+
+### Emphasis Readability
+
+Write your tests cases so that they can be read like a story. The tests provide a form of documentation for developers on the usage of the code (for free).
+
+### Pure Functions
+
+Pure functions are much easier to write unit tests for. They are defined by the following characteristics.
 
 - Given the same input (arguments), the function will always produce the same output (return value). This is known as being deterministic.
 - The function has no side effects. Side effects are changes to external state. Some examples of side effects are usage of timestamps internally, usage of random numbers, io dependencies (network operations, user input, disk access)
 
-## Arrange, Act, Assert
+### Arrange, Act, Assert
 
-Recommendations from Kent Dodds
+This is a pattern recommended by Kent Dodds. It is a pattern for better readability of tests.
 
 - Arrange: Create data and fixtures needed for the test case
 - Act: Execute functionality required to produce the data to be tested
