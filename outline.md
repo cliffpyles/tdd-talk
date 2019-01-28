@@ -10,7 +10,7 @@ It's a visual metaphor for a layered approach to testing.
 
 ## What is TDD?
 
-A process for writing code using tests to define and confirm the software’s behavior. It is known for a process called "Red, Green, Refactor".
+A process for writing code using tests to define and confirm the software’s behavior. It is known for a concept called "Red, Green, Refactor". The concept describes how the developer's workflow should occur.
 
 ### Red, Green, Refactor
 
