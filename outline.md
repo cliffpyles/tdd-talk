@@ -48,7 +48,7 @@ This is a pattern recommended by Kent Dodds. It is a pattern for better readabil
 - Act: Execute functionality required to produce the data to be tested
 - Assert: Ensure the data is correct
 
-### Colocation
+### Co-location
 
 Placing your unit tests in the same folder as the code they test helps with maintainability.
 
