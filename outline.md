@@ -48,6 +48,19 @@ This is a pattern recommended by Kent Dodds. It is a pattern for better readabil
 - Act: Execute functionality required to produce the data to be tested
 - Assert: Ensure the data is correct
 
+### Colocation
+
+Placing your unit tests in the same folder as the code they test helps with maintainability.
+
+- You don't run the risk of getting test and application folders that are supposed to match, but are out of sync after changes are made in the future.
+- You don't have to continuosly update relative import paths when the location of the code changes
+- The context of the tests is immediately apparent
+- Ensures true modularity. As you identify code that is being repeatedly written, you can move code to reusable packages with less effort.
+
+### Test Once
+
+Don't test things that are already tested elsewhere.
+
 ## Helpful Resources
 
 - Official Jest Docs: https://jestjs.io/docs/en/getting-started
