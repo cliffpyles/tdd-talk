@@ -25,3 +25,8 @@
 - Arrange: Create data and fixtures needed for the test case
 - Act: Execute functionality required to produce the data to be tested
 - Assert: Ensure the data is correct
+
+## Helpful Resources
+
+- Official Jest Docs: https://jestjs.io/docs/en/getting-started
+- Helpful Assertion Library: https://github.com/jest-community/jest-extended
