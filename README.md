@@ -80,8 +80,6 @@ success. Sometimes a test won't fail because it isn't executing correctly.
 
 ## Helpful Resources
 
-- Official Jest Docs: https://jestjs.io/docs/en/getting-started
-- Helpful Assertion Library: https://github.com/jest-community/jest-extended
 - Testing Pyramid Article: https://martinfowler.com/articles/practical-test-pyramid.html
 - Testing Pyramid Article: https://martinfowler.com/bliki/TestPyramid.html
 - Unit Test Article: https://medium.freecodecamp.org/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2
@@ -90,3 +88,5 @@ success. Sometimes a test won't fail because it isn't executing correctly.
 - Types of Automated Tests: https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing
 - Description of Workflow: http://agiledata.org/essays/tdd.html
 - Benefits of unit tests: https://apiumhub.com/tech-blog-barcelona/top-benefits-of-unit-testing/
+- Official Jest Docs: https://jestjs.io/docs/en/getting-started
+- Helpful Assertion Library: https://github.com/jest-community/jest-extended
