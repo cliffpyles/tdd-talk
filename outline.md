@@ -2,21 +2,32 @@
 
 The goal of automated testing is to give us **confidence that our code works as intended**.
 
-## Testing Pyramid
-
-It's a visual metaphor for a layered approach to testing.
-
 ![Testing Pyramid](https://martinfowler.com/articles/practical-test-pyramid/testPyramid.png)
 
 ## What is TDD?
 
-A process for writing code using tests to define and confirm the software’s behavior. It is known for a concept called "Red, Green, Refactor". The concept describes how the developer's workflow should occur.
+A process for writing code using tests to define and confirm the software’s behavior.
+
+## What are the Benefits?
+
+- Make the process agile
+- Quality of code
+- Find bugs early
+- Simplifies integration
+- Provides documentation
+- Debugging process is easier
+- Forces you to think through the design of the code
+- Reduces cost
 
 ### Red, Green, Refactor
 
-- Red Stage: Write a single test that fails
-- Green Stage: Write the minimum amount of application code to make the test pass (code quality is not the concern at this stage)
-- Refactor Stage: Refactor the code to make it better, while keeping the tests in the green. (code quality is a concern at this stage)
+It is known for a concept called "Red, Green, Refactor". The concept describes how the developer's workflow should occur.
+
+![TDD Process](http://hanwax.github.io/assets/tdd_flow.png)
+
+- Red: Write a single test that fails
+- Green: Write the minimum amount of application code to make the test pass (code quality is not the concern at this stage)
+- Refactor: Refactor the code to make it better, while keeping the tests in the green. (code quality is a concern at this stage)
 
 ## Quality in Unit Tests
 
@@ -29,7 +40,7 @@ Recommendations from Kent Beck (the creator of TDD)
 
 ## Tips
 
-### Emphasis Readability
+### Emphasis on Readability
 
 Write your tests cases so that they can be read like a story. The tests provide a form of documentation for developers on the usage of the code (for free).
 
@@ -56,6 +67,7 @@ Placing your unit tests in the same folder as the code they test helps with main
 - You don't have to continuosly update relative import paths when the location of the code changes
 - The context of the tests is immediately apparent
 - Ensures true modularity. As you identify code that is being repeatedly written, you can move code to reusable packages with less effort.
+- Easy to track what has unit tests
 
 ### Test Once
 
@@ -76,3 +88,5 @@ success. Sometimes a test won't fail because it isn't executing correctly.
 - Course on TDD: https://frontendmasters.com/courses/testing-practices-principles/
 - Book on TDD: https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
 - Types of Automated Tests: https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing
+- Description of Workflow: http://agiledata.org/essays/tdd.html
+- Benefits of unit tests: https://apiumhub.com/tech-blog-barcelona/top-benefits-of-unit-testing/
