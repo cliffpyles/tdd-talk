@@ -38,7 +38,7 @@ Write your tests cases so that they can be read like a story. The tests provide 
 Pure functions are much easier to write unit tests for. They are defined by the following characteristics.
 
 - Given the same input (arguments), the function will always produce the same output (return value). This is known as being deterministic.
-- The function has no side effects. Side effects are changes to external state. Some examples of side effects are usage of timestamps internally, usage of random numbers, io dependencies (network operations, user input, disk access)
+- The function has no side effects. Side effects are changes to external state. Some examples of side effects are usage of timestamps internally, usage of random numbers, io dependencies (network operations, user input, disk access). Also remember that arguments are passed by reference, which results in side effects if changes are made.
 
 ### Arrange, Act, Assert
 
