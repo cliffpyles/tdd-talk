@@ -75,3 +75,4 @@ success. Sometimes a test won't fail because it isn't executing correctly.
 - Unit Test Article: https://medium.freecodecamp.org/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2
 - Course on TDD: https://frontendmasters.com/courses/testing-practices-principles/
 - Book on TDD: https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
+- Types of Automated Tests: https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing
