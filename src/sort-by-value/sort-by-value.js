@@ -1,7 +1,7 @@
-function sortByValue(data) {
-  return [...data].sort((a, b) => {
-    return a - b
-  })
-}
+// function sortByValue(data) {
+//   return [...data].sort((a, b) => {
+//     return a - b
+//   })
+// }
 
-module.exports = sortByValue
+// module.exports = sortByValue
